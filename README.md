@@ -1,4 +1,4 @@
-# Teste para vaga de desenvolvedor BackEnd
+# Projeto de teste para vaga de desenvolvedor BackEnd
 
 O teste abaixo tem como objetivo avaliar o conhecimento técnico e pontos fortes do
 desenvolvedor.
