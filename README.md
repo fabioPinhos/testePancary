@@ -33,6 +33,8 @@ Para executar o projeto, é necessário utilizar o Intellij, para que o mesmo id
 
 ```shell
 MsClientesApplication
+
+http://localhost:8080/swagger-ui.html#/
 ```
 
 
