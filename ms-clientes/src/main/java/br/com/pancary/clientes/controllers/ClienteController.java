@@ -48,22 +48,6 @@ public class ClienteController {
 
     }
 
-    @GetMapping
-    @ApiOperation("Busca todos os clientes")
-    public ResponseEntity find(){
-
-        List<Cliente> listaResponse;
-        List<ClienteDTO> listaResponseDTO = null;
-
-        listaResponse = clienteService.obterTodos();
-
-        if(listaResponse != null && listaResponse.iterator().hasNext()){
-            listaResponseDTO = this.modelMapper.map(listaResponse, new TypeToken<Iterable<ClienteDTO>>() {}.getType());
-        }
-
-        return ResponseEntity.ok(listaResponseDTO);
-    }
-
     @GetMapping("/cpf/{cpf}")
     public ResponseEntity buscarClientePorCPF(@PathVariable String cpf){
 
