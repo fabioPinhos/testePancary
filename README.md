@@ -7,15 +7,23 @@ Para executar o projeto, será necessário instalar os seguintes programas:
 
 JDK 8: Necessário para executar o projeto Java
 Maven: Necessário para realizar o build do projeto Java
-Intellij: Para desenvolvimento do projeto
+IntelliJ: Para desenvolvimento do projeto
 
 ## DESENVOLVIMENTO
 
 Para iniciar o desenvolvimento, é necessário clonar o projeto do GitHub num diretório de sua preferência:
+
 ```shell
 cd "diretorio de sua preferencia"
-git clone https://github.com/fabioPinhos/testePancary
+https://github.com/fabioPinhos/testePancary.git
 ```
+
+Importar no IntelliJ/Eclipse o projeto :
+
+```shell
+ms-clientes
+```
+
 
 ## Construção
 
